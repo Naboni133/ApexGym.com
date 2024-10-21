@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(10, 5, 5);
+}
+.heading{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    position: fixed;
+    width: 100%;
+    text-decoration: none;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.heading :hover{
+    transform: translateY(-10px);
+    color: rgb(219, 74, 98);
+}
+.logo{
+    border-radius: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+.middle{
+object-fit: fill;
+background-image: url(victor-freitas-Yuv-iwByVRQ-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+.too{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 40px;
+    margin-top: 60px;
+}
+@keyframes slideinleft{
+from{
+    transform: translateX(-200px);
+
+}
+to{transform: translate(0);}
+}
+.ta{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-timing-function:ease-in ;
+    animation-delay: 1s;
+    animation-iteration-count:1 ;
+    animation-direction:normal ;
+}
+.ka{
+    position: relative;
+    left: 0;
+}
+.semifinal{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 160px;
+}
+.da{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 120px;
+}
+.nah{
+    position: relative;
+    left: 70px;
+}
+.ja{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 20px;
+    height: 400px;
+    color: black;
+    padding-top: 40px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.nop{
+    padding-top: 30px;
+    
+}
+.ja p{
+    margin-top: 20px;
+}
+.ka{
+    margin-top: 160px;
+}
+.nab{
+    color: white;
+    display: flex;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+.ta{
+    animation: slideinleft 1s ease-in 1s 1 normal fill-mode;
+}
+.jp{
+    position: relative;
+    bottom: 140px;
+}
+.one{
+    border:solid white;
+    background-color: bisque;
+}
+.second{
+    border: solid white;
+    background-color: rgb(233, 229, 221);
+}
+.kal{
+    border-radius: 40px;
+    position: relative;
+    top: 40px;
+}
+.three p{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 40px;
+
+}
+.three{
+    font-size: 40px;
+}
+.taa{
+    display: flex;
+    justify-content: space-between;
+}
+.oo{
+   border-radius: 40px;
+   position: relative;
+   top: 40px;
+}
+.ca{
+    border-radius: 40px;
+    position: relative;
+    top: 40px;
+}
+#comments-section {
+    margin: 20px 0;
+}
+#comment-input {
+    width: 100%;
+    margin-top: 10px;
+}
